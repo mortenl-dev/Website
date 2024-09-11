@@ -1,0 +1,84 @@
+body {
+    background-color: #001122;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Fira Code', sans-serif;
+    flex-direction: column;    
+    margin: 0;
+}
+.main {
+    width: 50vw; 
+    background-color: #000C1D; 
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+section {
+    margin: 2%;
+    text-align: center;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+#title {
+    color:#82AAFF;
+    
+}
+#languages {
+    color:#c5e478;
+}
+.counters {
+    color:#c792ea;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.featuredProject {
+    text-align:left;
+    border-left: #ffcb8b;
+    border-style:solid;
+    border-right:#000C1D;
+    border-top:#000C1D;
+    border-bottom:#000C1D;
+    padding-left: 2%;
+}
+#GithubCounter {
+    margin: 0% 1%;
+}
+#CommitCounter {    
+    margin: 0% 1%;
+}
+#featured {
+    color:#ffcb8b;
+}
+#footer {
+    color: #637777;
+}
+#Education {
+    margin-right:40%;
+    color:#c792ea;
+    text-align:left;
+}
+.title {
+    border-left: #c792ea;
+    border-style:solid;
+    border-right:#000C1D;
+    border-top:#000C1D;
+    border-bottom:#000C1D;
+    padding-left: 2%;
+}
+.content {
+    padding-top:2%;
+    padding-bottom:6%;
+    padding-left: 8%;
+}
+img {
+    width:32px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
